@@ -9,4 +9,8 @@ How To Install
 		require_once get_stylesheet_directory() . '/inc/custom-login-register.php';
 		$custom_login_register = new yourapp\Registration;
 
-3.	Create a page called "Register" and a page called "Login" (these need to be setup at /register and /login permalinks)
+3.	Sign up for a reCAPTCHA account here:  https://www.google.com/recaptcha/
+
+4.	Update the reCAPTCHA credentials in the top of inc/custom-login-register.php with your reCAPTCHA credentials
+
+5.	Create a page called "Register" and a page called "Login" (these need to be setup at /register and /login permalinks)
