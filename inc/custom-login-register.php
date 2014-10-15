@@ -38,7 +38,7 @@ class Registration {
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'jquery-ui' );
 		wp_enqueue_script( 'password-strength-meter' );
-		wp_enqueue_script( 'login-register', get_template_directory_uri() . '/js/login-register.js', array( 'jquery' ), false, false );
+		wp_enqueue_script( 'login-register', get_template_directory_uri() . '/inc/js/login-register.js', array( 'jquery' ), false, false );
 
 		// Styles
 		wp_enqueue_style( 'dashicons' );

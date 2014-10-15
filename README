@@ -1,0 +1,12 @@
+How To Install
+==============
+
+1.	Copy the files from this repository into your theme directory
+
+2.	Add the following to your functions.php file:
+
+		require_once get_stylesheet_directory() . '/inc/recaptchalib.php';
+		require_once get_stylesheet_directory() . '/inc/custom-login-register.php';
+		$custom_login_register = new yourapp\Registration;
+
+3.	Create a page called "Register" and a page called "Login" (these need to be setup at /register and /login permalinks)
